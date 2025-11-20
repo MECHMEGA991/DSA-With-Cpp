@@ -1,0 +1,9 @@
+
+
+1.  ADT abstract data type in array
+
+2.  Insertion in an array
+
+3.  Deletion in an array
+
+4.  
