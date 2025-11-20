@@ -10,6 +10,9 @@ int n , high , low , mid;
 low = 0;
 high = 4;
 
+cout<<"Enter the element u want to search :";
+cin>> n;
+
 while(low<=high){
 
 mid = (low + high)/2;
