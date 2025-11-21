@@ -12,6 +12,11 @@
 
 6.  Traversing and Impleting Linked list in C.
 
-7.  Insertion in a Linked list.
+7.  Insertion in a Linked list (at begin , at end , at given index , after given value , reversing singly linked list ).
 
-8.
+8.  Deletion in a Linked list (at begin , at end , at given index , given value ).
+
+9.  Circular linked list (insertion at begin).
+
+10. Doubly linked list (traversing and reversing doubly linked list).
+
