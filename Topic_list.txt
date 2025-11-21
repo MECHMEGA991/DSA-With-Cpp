@@ -1,9 +1,17 @@
 
 
-1.  ADT abstract data type in array
+1.  ADT Abstract Data Type in an array.
 
-2.  Insertion in an array
+2.  Insertion an element at k pos in an array.
 
-3.  Deletion in an array
+3.  Deletion an element at k pos in an array.
 
-4.  
+4.  Linear search in an array.
+
+5.  Binary search in an array.
+
+6.  Traversing and Impleting Linked list in C.
+
+7.  Insertion in a Linked list.
+
+8.
