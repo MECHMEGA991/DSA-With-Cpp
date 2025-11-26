@@ -7,6 +7,8 @@ struct node
     struct node *next;
 };
 
+ // singly Linked list 
+
 void traverse(struct node *head)
 {
     while (head != NULL)

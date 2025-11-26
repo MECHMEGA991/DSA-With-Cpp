@@ -20,3 +20,31 @@
 
 10. Doubly linked list (traversing and reversing doubly linked list).
 
+11. Stack using Structure and dynamic memmory in c and their operation (push , pop , peek).
+
+12. stack using oops and dynamix memory in c++ (push , pop , peek, display).
+
+13. Implementing stack using linked list.
+
+14. Single Paranthesis Problem solve using stack.
+
+15. Multiple Parantheis Problem solving using stack.
+
+16. Coversion of Infix into postfix using stack.
+
+17. Queue using Structure and dynamic memmory in c and their operation (enque , dequeue , peek).
+
+18. queue using oops and dynamix memory in c++ (enqueue , dequeue , peek, display).
+
+19. Circular queue using structur and dynamic memory in c and their operation (enque , dequeue , peek).
+
+20. Implenting queue using linked list.
+
+21. Criteria of sorting algorithm.
+
+22. Bubble Sortig in c++.
+
+23. Insertion sort in c++.
+
+24. Selection sort in c++.
+

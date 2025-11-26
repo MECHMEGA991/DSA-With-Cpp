@@ -1,0 +1,54 @@
+                          Criteria for Analysis of sorting algorithm
+
+1. Time complexity   - Amount of time (number of steps) it takes to complete in terms of input size.
+
+2. Space complexity - Amount of memory (space) it needs to run Input size of n
+                      Space Complexity = Memory for variables + Memory for recursion stack + Memory for extra data structures
+
+3. Stability  - If two elements have the same value, they appear in the same order in the sorted output as they appear in the input.
+
+4. ->Internal sorting algorithm  - All the data is loaded into the memory.
+   ->External sorting algotithm  - All the data is not loaded into the memory.
+
+5. Adaptive - Already sorted data take less time.
+
+6. Recursive/ Non- Recursive sorting algo - Rcursive if it use recursion.
+
+---------------------------Complexity----------------------------------
+
+Algorithm     	Best      	Average  	Worst     	Stable?	Extra Space  Adaptive
+
+Bubble Sort   	O(n)	       O(n²)	   O(n²)	      Yes	  O(1)           Yes
+
+Selection Sort	O(n²)	       O(n²)     O(n²)	       No 	O(1)            NO
+
+Insertion Sort	O(n)	       O(n²)     O(n²)      	Yes 	O(1)           Yes
+
+Merge Sort    	O(n log n)	O(n log n) O(n log n)	  Yes 	O(n)
+
+Quick Sort	    O(n log n)	O(n log n) O(n²)	      No   	O(log n)
+
+Heap Sort	      O(n log n)	O(n log n) O(n log n) 	No	  O(1)
+
+Counting Sort 	O(n + k)	  O(n + k)	 O(n + k)	    Yes 	O(k)
+
+Radix Sort	    O(nk)	      O(nk)	     O(nk)	      Yes	  O(n + k)
+
+Bucket Sort   	O(n)	      O(n)	     O(n²)	      Yes	  O(n)
+
+------------------------------------------------------------------------
+
+-------------------------------Fast to slow-----------------------------------------------------
+
+| Rank | Complexity     | Growth Rate Description | Example Algorithms                          |
+| ---- | -------------- | ----------------------- | ------------------------------------------- |
+| 1    | **O(1)**       | Constant time           | Accessing array element, push/pop stack     |
+| 2    | **O(log n)**   | Logarithmic             | Binary Search, Search in BST                |
+| 3    | **O(n)**       | Linear                  | Linear Search, Traversing array             |
+| 4    | **O(n log n)** | Linearithmic            | Merge Sort, Quick Sort (average), Heap Sort |
+| 5    | **O(n²)**      | Quadratic               | Bubble Sort, Insertion Sort, Selection Sort |
+| 6    | **O(n³)**      | Cubic                   | Matrix Multiplication (simple)              |
+| 7    | **O(2ⁿ)**      | Exponential             | Recursive Fibonacci, Subset problem         |
+| 8    | **O(n!)**      | Factorial               | Travelling Salesman Problem (Brute Force)   |
+
+-------------------------------------------------------------------------------------------------
