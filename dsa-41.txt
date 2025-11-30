@@ -1,0 +1,44 @@
+1. Definition
+
+A graph is a collection of vertices (nodes) and edges (connections between nodes).
+
+Formally: G = (V, E)
+
+V = set of vertices
+
+E = set of edges
+
+
+2. Types of Graphs
+
+Type	                                                        Description                                        	Example
+Directed Graph (Digraph)	                    Edges have direction (u → v)	                                Twitter following
+Undirected Graph	                            Edges have no direction	                                        Facebook friendship
+Weighted Graph	                                Edges carry weights	                                            Road distances
+Unweighted Graph	                            No weight on edges	                                            Social network links
+Cyclic / Acyclic	                            Contains / doesn’t contain cycles	                            Task scheduling (DAG)
+Connected / Disconnected	                    All vertices reachable / not	                                Network nodes
+Bipartite Graph	Vertices                        can be divided into 2 sets with edges only between sets	        Job assignment
+
+
+3. Graph Representations
+
+a) Adjacency Matrix
+
+2D array matrix[V][V]
+
+matrix[i][j] = 1 if edge exists, else 0
+
+Pros: Easy to check if edge exists
+
+Cons: Space O(V²), slow for sparse graphs
+
+b) Adjacency List
+
+Array of lists list[V]
+
+list[i] stores all neighbors of vertex i
+
+Pros: Efficient for sparse graphs
+
+Space O(V + E)

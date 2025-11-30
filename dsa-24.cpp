@@ -43,13 +43,12 @@ int main(){
 
     cout << "Before sorting : ";
     printarray(arr, size); // printing the array before sorting
-
     selectionsort(arr, size);
 
     cout << "After sorting : ";
     printarray(arr, size); // printing the array after sorting
 
-    return 0;
+;
 
     return 0;
 }

@@ -1,0 +1,159 @@
+🌳 What is a Tree?
+
+A Tree is a non-linear, hierarchical data structure made up of nodes connected by edges.
+
+✔It has:
+
+A root node → topmost node
+Parent and child nodes
+Leaf nodes → nodes with no children
+Subtrees → smaller trees inside a tree
+
+✔Properties:
+
+There is only one path between any two nodes
+No cycles
+Used to represent hierarchical structures.
+
+✔Real-world examples:
+
+File Explorer
+
+Family Tree
+
+Organization Chart
+
+HTML DOM
+
+🌳 What is a Binary Tree?
+
+A Binary Tree is a special type of tree where each node has at most 2 children.
+Children are named:
+
+Left child
+
+Right child
+
+🌳 Types of Binary Trees
+
+Below are the most important types:
+
+1️⃣ Full Binary Tree (Proper / Strict)
+
+Every node has 0 or 2 children.
+No node has only one child.
+
+      1
+     / \
+    2   3
+
+2️⃣ Complete Binary Tree
+
+All levels are completely filled except possibly the last level,
+and nodes in the last level are filled from left to right.
+
+Used in:
+
+Heaps
+
+Priority Queues
+
+      1
+     / \
+    2   3
+   / \
+  4   5
+
+3️⃣ Perfect Binary Tree
+
+A tree where:
+
+All internal nodes have 2 children
+All leaf nodes are at the same level
+
+      1
+     / \
+    2   3
+   / \ / \
+  4  5 6  7
+
+4️⃣ Balanced Binary Tree
+
+A tree where the height difference between left and right subtree is ≤ 1.
+
+Used in:
+AVL Tree
+Red-Black Tree
+
+Guarantees:
+
+O(log n) search, insert, delete
+
+5️⃣ Degenerate (Skewed) Binary Tree
+
+Each node has only one child.
+Equivalent to a linked list.
+
+Left-skewed:
+1
+ \
+  2
+   \
+    3
+
+Right-skewed:
+1
+ \
+  2
+   \
+    3
+
+6️⃣ Binary Search Tree (BST)
+
+A special binary tree with property:
+
+Left child < Parent
+Right child > Parent
+
+Enables:
+
+Fast searching (like binary search)
+
+Time complexity:
+
+Best: O(log n)
+
+Worst (skewed): O(n)
+
+7️⃣ AVL Tree
+
+A self-balancing BST.
+Keeps height-balanced by rotations.
+
+Guarantee:
+
+Search, insert, delete: O(log n)
+
+8️⃣ Red-Black Tree
+
+Another self-balancing BST used in:
+
+C++ STL map
+Java TreeMap
+Linux kernel
+
+Guarantees:
+
+Worst-case height: O(log n)
+
+🌳 Summary Table (Easy for Interviews)
+
+Tree Type	Description
+
+Full Binary Tree	0 or 2 children
+Complete Binary Tree	Last level filled left to right
+Perfect Binary Tree	All leaves at same level & full
+BST	Left < root < right
+AVL Tree	Height-balanced BST
+Red-Black Tree	Balanced using color rules
+Skewed Tree	Looks like a linked list

@@ -48,3 +48,36 @@
 
 24. Selection sort in c++.
 
+25. Quick sort using Lomuto Partition in c++
+
+26. Quick sort using Hoare Partition in c.
+
+27. Merging of two sorted array in c++.
+
+28. Merge sort in c++.
+
+29. Small Description of Trees and their types.
+
+30. Binary tree creation in c.
+
+31. Traversal of Binary tree in Preorder.
+
+32. Traversal of Binary tree in Postorder.
+
+33. Traversal of Binary tree in Inorder.
+
+34. BST and checking it  if its binary search tree.
+
+35. Searching in a binary search tree using recursion.
+
+36. Searching in a binary search tree using Iterative method.
+
+37. Inserting in a binary search tree in c.
+
+38. Deletion in a binary search tree in c.
+
+39. AVL tree some theoy important.
+
+40. Insertion in AVL tree , height , balancing factor , Left && Right rotation , LL , RR , LR , RL rotation.
+
+41. Graph Basic Theory . 

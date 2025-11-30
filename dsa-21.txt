@@ -52,3 +52,15 @@ Bucket Sort   	O(n)	      O(n)	     O(n²)	      Yes	  O(n)
 | 8    | **O(n!)**      | Factorial               | Travelling Salesman Problem (Brute Force)   |
 
 -------------------------------------------------------------------------------------------------
+
+| Algorithm                  | Stable? | Adaptive? | Recursive?           | Time Complexity (Avg) | Notes                                                                    |
+| -------------------------- | ------- | --------- | ----------------     | --------------------- | ------------------------------------------------------------------------ |
+| **Bubble Sort**            | ✅ Yes   | ✅ Yes     | ❌ No             | O(n²)                 | Simple, good for small/mostly sorted arrays                              |
+| **Insertion Sort**         | ✅ Yes   | ✅ Yes     | ❌ No (iterative) | O(n²)                 | Very efficient for nearly sorted data                                    |
+| **Selection Sort**         | ❌ No    | ❌ No      | ❌ No             | O(n²)                 | Always O(n²), not adaptive                                               |
+| **Merge Sort**             | ✅ Yes   | ❌ No      | ✅ Yes            | O(n log n)            | Needs extra space (O(n)), always stable                                  |
+| **Quick Sort**             | ❌ No    | ❌ No      | ✅ Yes            | O(n log n) avg        | Can be made stable with extra work                                       |
+| **Heap Sort**              | ❌ No    | ❌ No      | ❌ No             | O(n log n)            | In-place but not stable                                                  |
+| **Tim Sort** (Python/Java) | ✅ Yes   | ✅ Yes     | ❌ No             | O(n log n)            | Adaptive, hybrid of Merge + Insertion Sort, used in real-world libraries |
+| **Counting Sort**          | ✅ Yes   | ✅ Yes     | ❌ No             | O(n + k)              | Stable, non-comparative, good for integers                               |
+| **Radix Sort**             | ✅ Yes   | ✅ Yes     | ❌ No             | O(nk)                 | Stable, for integers/strings                                             |
