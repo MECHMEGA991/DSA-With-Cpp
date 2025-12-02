@@ -1,0 +1,85 @@
+1.  ADT Abstract Data Type in an array.
+
+2.  Insertion an element at k pos in an array.
+
+3.  Deletion an element at k pos in an array.
+
+4.  Linear search in an array.
+
+5.  Binary search in an array.
+
+6.  Traversing and Impleting Linked list in C.
+
+7.  Insertion in a Linked list (at begin , at end , at given index , after given value , reversing singly linked list ).
+
+8.  Deletion in a Linked list (at begin , at end , at given index , given value ).
+
+9.  Circular linked list (insertion at begin).
+
+10. Doubly linked list (traversing and reversing doubly linked list).
+
+11. Stack using Structure and dynamic memmory in c and their operation (push , pop , peek).
+
+12. stack using oops and dynamix memory in c++ (push , pop , peek, display).
+
+13. Implementing stack using linked list.
+
+14. Single Paranthesis Problem solve using stack.
+
+15. Multiple Parantheis Problem solving using stack.
+
+16. Coversion of Infix into postfix using stack.
+
+17. Queue using Structure and dynamic memmory in c and their operation (enque , dequeue , peek).
+
+18. queue using oops and dynamix memory in c++ (enqueue , dequeue , peek, display).
+
+19. Circular queue using structur and dynamic memory in c and their operation (enque , dequeue , peek).
+
+20. Implenting queue using linked list.
+
+21. Criteria of sorting algorithm.
+
+22. Bubble Sortig in c++.
+
+23. Insertion sort in c++.
+
+24. Selection sort in c++.
+
+25. Quick sort using Lomuto Partition in c++
+
+26. Quick sort using Hoare Partition in c.
+
+27. Merging of two sorted array in c++.
+
+28. Merge sort in c++.
+
+29. Small Description of Trees and their types.
+
+30. Binary tree creation in c.
+
+31. Traversal of Binary tree in Preorder.
+
+32. Traversal of Binary tree in Postorder.
+
+33. Traversal of Binary tree in Inorder.
+
+34. BST and checking it  if its binary search tree.
+
+35. Searching in a binary search tree using recursion.
+
+36. Searching in a binary search tree using Iterative method.
+
+37. Inserting in a binary search tree in c.
+
+38. Deletion in a binary search tree in c.
+
+39. AVL tree some theoy important.
+
+40. Insertion in AVL tree , height , balancing factor , Left && Right rotation , LL , RR , LR , RL rotation.
+
+41. Graph Basic Theory . 
+
+42. BFS (Breadth First Search) in c using queue;
+
+43. DFS (Depth First Search) in c using stack;
