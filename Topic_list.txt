@@ -81,3 +81,7 @@
 40. Insertion in AVL tree , height , balancing factor , Left && Right rotation , LL , RR , LR , RL rotation.
 
 41. Graph Basic Theory . 
+
+42. BFS (Breadth First Search) in c using queue;
+
+43. DFS (Depth First Search) in c using stack;

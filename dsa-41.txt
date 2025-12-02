@@ -42,3 +42,136 @@ list[i] stores all neighbors of vertex i
 Pros: Efficient for sparse graphs
 
 Space O(V + E)
+
+
+BFS IMPLEMENTATION
+
+
+✅ Meaning of Each Variable
+1️⃣ What is i?
+
+i = 0;
+
+This is the starting node for BFS.
+BFS will start from node 0.
+Whatever value you put in i, BFS will begin from that node.
+So if i = 0, output starts with:
+0
+
+2️⃣ What is visited[] array?
+int visited[7] = {0,0,0,0,0,0,0};
+
+
+This is a marker array used to remember whether a node is already visited.
+
+Meaning:
+
+visited[x] = 0 → node x is NOT visited
+
+visited[x] = 1 → node x is visited already
+
+This prevents BFS from visiting the same node again (which would cause an infinite loop).
+
+Example:
+
+When BFS visits node 0, it does:
+
+visited[0] = 1;
+This means: “I have visited node 0”.
+
+
+3️⃣ What is u?
+int u = dequeue(q);
+
+u is the current node being processed in BFS.
+
+How BFS works:
+
+Remove a node from the queue → this becomes u.
+
+Explore all neighbors of u.
+
+For each neighbor not visited → print it, mark visited, and add to queue.
+
+So u changes every iteration.
+
+Example:
+
+At first:
+
+u = 0
+Next:
+
+u = 1 or 2 or 3 depending on BFS order
+Next:
+
+u = 3, etc.
+
+u always holds the current node BFS is expanding.
+
+4️⃣ What is a[7][7]? (Adjacency Matrix)
+
+This matrix represents the graph.
+
+Example row:
+
+{0,1,1,1,0,0,0}
+
+
+This means from node 0:
+
+connected to node 1
+
+connected to node 2
+
+connected to node 3
+
+Because the 1s are at positions (0,1), (0,2), (0,3).
+
+Each a[u][j] == 1 means there is an edge between u and j.
+
+5️⃣ What happens in the loop?
+while (!isempty(q)) {
+    int u = dequeue(q);
+
+
+Take next node from queue → assign to u.
+
+Then check neighbors of u:
+
+for (int j = 0; j < 7; j++) {
+    if (a[u][j] == 1 && visited[j] == 0)
+
+
+This means:
+
+✔ If node j is connected to u
+✔ AND j is not visited yet
+
+Then:
+
+print j
+
+mark visited[j] = 1
+
+add j to queue
+
+🧠 Putting It All Together (Very Simple Explanation)
+i → the starting node.
+visited[] → keeps track of which nodes are already visited.
+u → the current node being processed from queue.
+BFS process:
+
+Start at node i
+
+Mark it visited
+
+Put it into the queue
+
+Take nodes from queue one by one (this is u)
+
+Visit all neighbors of u (using adjacency matrix)
+
+For each neighbor:
+
+if not visited → print, mark visited, enqueue
