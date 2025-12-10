@@ -2,14 +2,22 @@
 #include<stdlib.h>
 
 
-// Linked list traversal and implement 
-
+// Linked list traversal and implement and Reverse of linked list
 struct node{
-
+    
     int data;
     struct node *next;
-
+    
 };
+
+void reverse(struct node *ptr){
+
+    if(ptr==NULL){
+        return;
+    }
+    reverse(ptr->next);
+    printf("Element : %d \n",ptr->data);
+}
 int main()
 {
     struct node *ptr;
@@ -53,6 +61,9 @@ int main()
         ptr=ptr->next;
 
     }
+
+    printf("Reverse : \n");
+    reverse(head);
 
 
 return 0;
