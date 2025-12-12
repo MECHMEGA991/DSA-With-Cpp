@@ -52,6 +52,7 @@ struct node *deleteatbegin(struct node *head)
     free(ptr);
 
     return head;
+    
 }
 
 // Deleting an element at given index

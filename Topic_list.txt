@@ -8,9 +8,9 @@
 
 5.  Binary search in an array.
 
-6.  Traversing and Impleting Linked list in C.
+6.  Traversing , reversing and Impleting Linked list in C.
 
-7.  Insertion in a Linked list (at begin , at end , at given index , after given value , reversing singly linked list ).
+7.  Insertion in a Linked list (at begin , at end , at given index , after given value ).
 
 8.  Deletion in a Linked list (at begin , at end , at given index , given value ).
 

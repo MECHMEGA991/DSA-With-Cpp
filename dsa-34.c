@@ -34,6 +34,7 @@ void inorder(struct node *root){
 }
 
 int isbst(struct node * root){
+    
     static struct node * prev = NULL;
 
     if(root!=NULL){

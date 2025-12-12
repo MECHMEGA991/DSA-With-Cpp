@@ -42,8 +42,7 @@ struct node * push(struct node * top, int val){
 
     else {
         struct node * n  = (struct node *)malloc(sizeof(struct node));
-        
-        
+         
         n->data=val;
         n->next = top;
 

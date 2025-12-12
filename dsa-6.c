@@ -18,6 +18,7 @@ void reverse(struct node *ptr){
     reverse(ptr->next);
     printf("Element : %d \n",ptr->data);
 }
+
 int main()
 {
     struct node *ptr;
